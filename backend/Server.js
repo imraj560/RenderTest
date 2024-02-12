@@ -17,6 +17,6 @@ app.get('/', (req, res)=>{
 
 app.listen(process.env.PORT, ()=>{
 
-    console.log('Connected to DB, ports no:', process.env.PORT);
+    console.log('Connected to DB, ports nos:', process.env.PORT);
 })
 
